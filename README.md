@@ -10,7 +10,7 @@
 <h2>Environments and Applications Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop
 - Active Directory Domain Services
 - PowerShell
 
