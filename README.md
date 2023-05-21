@@ -32,7 +32,7 @@
 
 <h2>Action Steps</h2>
 </p>                                                                     
-<img src= .png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/B17d1fy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Change DC 1's IP Address to Static
@@ -123,12 +123,21 @@
 
  <img src= https://imgur.com/Om1Zfi2.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
--Login as new admin user on Client 1
+-Login as new admin user on Client 1. 
+&emsp;
+&emsp; 
+&emsp;
+&emsp;
+
+After assigning the new created user to Domain Admins, the user now has login access on this device. 
 
   </p>
 <br />
 
 
+&emsp; 
+&emsp;
+&emsp;
 &emsp; 
 &emsp;
 &emsp;
@@ -148,5 +157,15 @@
 <img src=https://imgur.com/ajuLOn6.png  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 -Added Client 1 to the domain network
+&emsp;
+&emsp; 
+&emsp;
+&emsp;
+&emsp; 
+&emsp;
+&emsp;
+
+Changing Client 1's DNS settings and restarting the machine above, 
+allowed the client to be added to the domain since it as the same address as DC 1's private network. 
 
  
