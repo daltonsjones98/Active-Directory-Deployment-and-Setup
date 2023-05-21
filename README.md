@@ -22,7 +22,7 @@
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 1. Configure and deploy Virtual Machines within Azure                                                                          
-2. Test connectivity via Ping                                                                          
+2. Change IP Address to static and test connectivity via Ping                                                                          
 3. Install Active Directory Domain Services and set as Domain Controller                                                                      
 4. Create Users and sign in as Admin
 5. Add Client to the domain
@@ -32,10 +32,10 @@
 
 <h2>Action Steps</h2>
 </p>                                                                     
-<img src= https://imgur.com/v81Uq5r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= .png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Ping DC1's private IP address to check connectivity. No reply. 
+-Change DC 1's IP Address to Static
    </p>
 <br />
 
@@ -43,8 +43,19 @@
 &emsp;
 &emsp;  
 
+<img src= =https://imgur.com/v81Uq5r.png   height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+-Ping DC1's private IP address to check connectivity. No reply.
+
 </p>
-<p>
+<br />
+
+&emsp; 
+&emsp;
+&emsp;
+
+
 <img src= https://imgur.com/ci6raAF.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
   -Enable Ping ICMP4 in Firewall.
@@ -111,5 +122,31 @@
 
 
  <img src= https://imgur.com/Om1Zfi2.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+-Login as new admin user on Client 1
+
+  </p>
+<br />
+
+
+&emsp; 
+&emsp;
+&emsp;
+
+<img src=https://imgur.com/Xqi1zI2.png  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+-Change Client 1's DNS settings to DC1's private IP address 
+
+  </p>
+<br />
+
+
+&emsp; 
+&emsp;
+&emsp;
+
+<img src=https://imgur.com/ajuLOn6.png  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+-Added Client 1 to the domain network
 
  
