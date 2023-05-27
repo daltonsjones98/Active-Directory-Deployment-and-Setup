@@ -1,4 +1,4 @@
-# Active-Directory-deployment-and-setup
+# Active-Directory Deployment and Setup
 &emsp;
 <p align="center">
 <img src="https://imgur.com/6VrviHv.png alt="Microsoft Active Directory Logo"/>
