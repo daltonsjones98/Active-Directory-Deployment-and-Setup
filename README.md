@@ -32,7 +32,7 @@
 
 <h2>Action Steps</h2>
 </p>                                                                     
-<img src=https://imgur.com/B17d1fy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/B17d1fy.png" height="40%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Change DC 1's IP Address to Static
@@ -43,7 +43,7 @@
 &emsp;
 &emsp;  
 
-<img src= =https://imgur.com/v81Uq5r.png   height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= https://imgur.com/v81Uq5r.png   height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
 
 -Ping DC1's private IP address to check connectivity. No reply.
@@ -56,7 +56,7 @@
 &emsp;
 
 
-<img src= https://imgur.com/ci6raAF.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= https://imgur.com/ci6raAF.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
   
   -Enable Ping ICMP4 in Firewall.
    </p>
@@ -69,7 +69,7 @@
  
 
 
-<img src =https://imgur.com/JtLvwG6.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src =https://imgur.com/JtLvwG6.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
   -DC1 Ping is online. 
    </p>
@@ -82,7 +82,7 @@
  
  
  
-<img src =https://imgur.com/FH0Hrlo.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src =https://imgur.com/FH0Hrlo.png height="45%" width="60%" alt="Disk Sanitization Steps"/>
 
   -Install Active Directory Domain Services and Set as Domain Controller
    </p>
@@ -95,7 +95,7 @@
  
  
  
-<img src=https://imgur.com/lhjat99.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/lhjat99.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
  -New User Created
 
