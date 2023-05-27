@@ -14,12 +14,14 @@
 - Active Directory Domain Services
 - PowerShell
 
-<h2>Operating Systems </h2>
+
+<h3>Operating Systems </h3>
 
 - Windows Server 2016
 - Windows 10 (21H2)
+                                                                          
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h3> Configuration Steps</h3>
 
 1. Configure and deploy Virtual Machines within Azure                                                                          
 2. Change IP Address to static and test connectivity via Ping                                                                          
@@ -27,12 +29,15 @@
 4. Create Users and sign in as Admin
 5. Add Client to the domain
 6. Create Bulk Users within PowerShell command
-                                                                             
-                                                                             
-
+                                                                                                                                      
+                                                                            
 <h2>Action Steps</h2>
-</p>                                                                     
-<img src=https://imgur.com/B17d1fy.png" height="40%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+ - Listed below are images with a step by step process of setting up Active Directory and the domain.
+                                                                             
+&emsp;
+
+<img src=https://imgur.com/B17d1fy.png height="30%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Change DC 1's IP Address to Static
@@ -43,7 +48,7 @@
 &emsp;
 &emsp;  
 
-<img src= https://imgur.com/v81Uq5r.png   height="40%" width="50%" alt="Disk Sanitization Steps"/>
+<img src= https://imgur.com/v81Uq5r.png   height="50%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 -Ping DC1's private IP address to check connectivity. No reply.
@@ -108,7 +113,7 @@
 &emsp;
 
 
-<img src= https://imgur.com/OIvWAs2.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= https://imgur.com/OIvWAs2.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
 - Assign John Smith to "Admin User"
 
@@ -121,7 +126,7 @@
 &emsp;
 
 
- <img src= https://imgur.com/Om1Zfi2.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src= https://imgur.com/Om1Zfi2.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
 -Login as new admin user on Client 1. 
 &emsp;
@@ -142,9 +147,11 @@ After assigning the new created user to Domain Admins, the user now has login ac
 &emsp;
 &emsp;
 
-<img src=https://imgur.com/Xqi1zI2.png  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= https://imgur.com/Xqi1zI2.png  height="30%" width="45%" alt="Disk Sanitization Steps"/>
 
--Change Client 1's DNS settings to DC1's private IP address 
+-Change Client 1's DNS settings to DC1's private IP address. {Network Settings -- Change Adapters -- DNS Servers}
+First in Azure I went  to my Domain Controller and got the private IP address from IP Configuration settings. Next, Client 1's DNS Server was changed to DC1's address so that it could connected to the domain.                                                                                              
+                                                                                         
 
   </p>
 <br />
@@ -154,18 +161,9 @@ After assigning the new created user to Domain Admins, the user now has login ac
 &emsp;
 &emsp;
 
-<img src=https://imgur.com/ajuLOn6.png  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/ajuLOn6.png  height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
--Added Client 1 to the domain network
-&emsp;
-&emsp; 
-&emsp;
-&emsp;
-&emsp; 
-&emsp;
-&emsp;
-
-Changing Client 1's DNS settings and restarting the machine above, 
+-Added Client 1 to the domain network -Changing Client 1's DNS settings and restarting the machine above, 
 allowed the client to be added to the domain since it as the same address as DC 1's private network. 
 
  
