@@ -51,7 +51,7 @@
 <img src= https://imgur.com/v81Uq5r.png   height="50%" width="60%" alt="Disk Sanitization Steps"/>
 
 
--Ping DC1's private IP address to check connectivity. No reply.
+-Pinged DC1's private IP address to check connectivity and no reply. 
 
 </p>
 <br />
@@ -63,7 +63,7 @@
 
 <img src= https://imgur.com/ci6raAF.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
   
-  -Enable Ping ICMP4 in Firewall.
+  -Enabled Ping ICMP4 in Firewall.
    </p>
 <br />
 
@@ -89,7 +89,7 @@
  
 <img src =https://imgur.com/FH0Hrlo.png height="45%" width="60%" alt="Disk Sanitization Steps"/>
 
-  -Install Active Directory Domain Services and Set as Domain Controller
+  -Installed Active Directory Domain Services and Set as Domain Controller
    </p>
 <br />
 
@@ -115,7 +115,7 @@
 
 <img src= https://imgur.com/OIvWAs2.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
-- Assign John Smith to "Admin User"
+- Assigned John Smith to "Admin User"
 
    </p>
 <br />
@@ -128,7 +128,7 @@
 
  <img src= https://imgur.com/Om1Zfi2.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
 
--Login as new admin user on Client 1. 
+-Signed on as new admin user on Client 1. 
 &emsp;
 &emsp; 
 &emsp;
@@ -149,7 +149,7 @@ After assigning the new created user to Domain Admins, the user now has login ac
 
 <img src= https://imgur.com/Xqi1zI2.png  height="30%" width="45%" alt="Disk Sanitization Steps"/>
 
--Change Client 1's DNS settings to DC1's private IP address. {Network Settings -- Change Adapters -- DNS Servers}
+-Changed  Client 1's DNS settings to DC1's private IP address. {Network Settings -- Change Adapters -- DNS Servers}
 First in Azure I went  to my Domain Controller and got the private IP address from IP Configuration settings. Next, Client 1's DNS Server was changed to DC1's address so that it could connected to the domain.                                                                                              
                                                                                          
 
