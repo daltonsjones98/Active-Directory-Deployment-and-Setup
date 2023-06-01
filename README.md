@@ -9,24 +9,22 @@
 &emsp;                                                                           
 <h2>Environments and Applications Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Microsoft Remote Desktop
-- Active Directory Domain Services
-- PowerShell
-
-
-<h3>Operating Systems </h3>
-
-- Windows Server 2016
-- Windows 10 (21H2)
-                                                                          
+- _Microsoft Azure (Virtual Machines/Compute)_
+- _Microsoft Remote Desktop_
+- _Windows Server 2016_
+- _Windows 10 (21H2)_                    
+- _Active Directory Domain Services_
+- _PowerShell_
+                                           
 
 <h3> Configuration Steps</h3>
 
 1. Configure and deploy Virtual Machines within Azure                                                                          
-2. Change IP Address to static and test connectivity via Ping                                                                          
-3. Install Active Directory Domain Services and set as Domain Controller                                                                      
+2. Change IP Address to static and test connectivity via _Ping_                                                                          
+3. Install _Active Directory Domain Services_ and set as _Domain Controller _                                                               
 4. Create Users and sign in as Admin
+5. Add users/admins to the domain                                                                             
+5. Sign in as other users using their login info
 5. Add Client to the domain
 6. Create Bulk Users within PowerShell command
                                                                                                                                       
@@ -166,4 +164,11 @@ First in Azure I went  to my Domain Controller and got the private IP address fr
 -Added Client 1 to the domain network -Changing Client 1's DNS settings and restarting the machine above, 
 allowed the client to be added to the domain since it as the same address as DC 1's private network. 
 
+
+
+
+
+
+
+**https://github.com/daltonsjones98**
  
