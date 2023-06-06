@@ -26,8 +26,7 @@
 5. Add users/admins to the domain                                                                             
 5. Sign in as other users using their login info
 5. Add Client to the domain
-6. Create Bulk Users within PowerShell command
-                                                                                                                                      
+                                                                                      
                                                                             
 <h2>Action Steps</h2>
 </p>
