@@ -45,7 +45,7 @@
 &emsp;
 &emsp;  
 
-<img src= https://imgur.com/v81Uq5r.png   height="50%" width="60%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/rhxaKVb.png   height="50%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 -Pinged DC1's private IP address to check connectivity and no reply. 
@@ -58,22 +58,11 @@
 &emsp;
 
 
-<img src= https://imgur.com/ci6raAF.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/KrzpTRO.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
   
-  -Enabled Ping ICMP4 in Firewall.
-   </p>
-<br />
-
-
-&emsp; 
-&emsp;
-&emsp;
  
 
-
-<img src =https://imgur.com/JtLvwG6.png height="40%" width="50%" alt="Disk Sanitization Steps"/>
-
-  -DC1 Ping is online. 
+  -DC1 Ping is online. Enabled Firewall settings on DC 1. 
    </p>
 <br />
 
