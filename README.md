@@ -1,7 +1,8 @@
 # Active-Directory Deployment and Setup
 &emsp;
 <p align="center">
-<img src="https://imgur.com/6VrviHv.png alt="Microsoft Active Directory Logo"/>
+<img src="https://imgur.com/eYFnyKY.png height="20%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 </p>
 &emsp;  
 &emsp;
