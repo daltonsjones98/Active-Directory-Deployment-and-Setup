@@ -10,7 +10,7 @@
 &emsp; 
 
 **<h2> Description </h2>**
-This project goes through install and action steps for Active Directory Services. A small description would be I created two virtual Machines: DC1((Windows Server) and WM 2( Client). On DC-1 Active Directory is installed and a domain is created. VM 2 is used as a client pc to connect to that domain using the newly created users. The Applications and steps used are listed below. 
+This project goes through install and action steps for Active Directory Services. A quick description would be that two virtual Machines were created: DC1((Windows Server) and WM 2(Client). On DC-1 Active Directory is installed and a domain is created. VM 2 is used as a client PC to connect to that domain using the newly created users. The Applications and steps used are listed below. 
 
 
 <h2>Environments and Applications Used</h2>
